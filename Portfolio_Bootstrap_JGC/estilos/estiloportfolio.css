@@ -19,11 +19,24 @@ html{
 	color: white;
 	background-color: blue;
 }
+h1,h2,h3{
+	color: #00fff5;
+}
+h4,h5,h6{
+	color: white;
+}
 p{
 	color:white;
 }
+a{
+	color: #00adb5;
+}
+header{
+	color:#00fff5;
+	text-align:center;
+}
 body{
-	background-image: url("imagenesfondo/fondo.png");
+	background-color: #212121;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -33,15 +46,34 @@ body{
 	font-family: sans-serif;
 	overflow-x: hidden;
 }
+.introduccion{
+	padding: 40px 20px 30px 20px;
+	height: calc(90vh - 100px);
+	max-height: 720px;
+}
 p{
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
 }
-.card-img-top{
-	border-radius:50%;
-	box-shadow: 0px 0px 10px 10px #1e9ffe ;
+
+.card{
+	width:400px;
+	background-color: transparent;
 }
-.card-img-top img:hover{
-	transform: rotate(360deg);
-	transition:.5s ;
+.card-img-top{
+	width:100%;
+	text-align:center;
+	border-radius:50%;
+	box-shadow: 0px 0px 5px 5px #00fff5 ;
+}
+header{
+	background-color:#00adb5;
+	color:white;
+}
+#redessociales{
+	background-color: #00adb5;
+}
+#copyright{
+	color: white;
+	background-color:#212121;
 }
